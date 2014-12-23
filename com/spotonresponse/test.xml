@@ -1,0 +1,785 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body>
+    <inc:GetIncidentListResponse xmlns:inc="http://uicds.org/IncidentManagementService">
+        <wor:WorkProductList xmlns:wor="http://uicds.org/WorkProductService">
+            <str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures">
+                <ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0">
+                    <ulex:DataItemID>Incident-c0ea07d9-4772-4b5e-b0ad-0415d982b2c7</ulex:DataItemID>
+                    <ulex:DataItemReferenceID>Incident-c0ea07d9-4772-4b5e-b0ad-0415d982b2c7</ulex:DataItemReferenceID>
+                    <ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/>
+                    <ulex:DataOwnerMetadata>
+                        <ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0">
+                            <ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/">
+                                <ns1:name>ucids.org</ns1:name>
+                            </ns1:Organization>
+                        </ns:DataOwnerIdentifier>
+                        <ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0">
+                            <ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/">
+                                <ns1:name>http://uicds.us</ns1:name>
+                            </ns1:Organization>
+                        </ns:DataOwnerContact>
+                        <ulex:DataOwnerMetadataDomainAttribute>
+                            <ulex:DomainName>UICDS EM Domain</ulex:DomainName>
+                        </ulex:DataOwnerMetadataDomainAttribute>
+                    </ulex:DataOwnerMetadata>
+                    <ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/>
+                    <str:WorkProductIdentification>
+                        <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-c0ea07d9-4772-4b5e-b0ad-0415d982b2c7</base:Identifier>
+                        <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">194</base:Version>
+                        <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type>
+                        <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jan 07 23:55:48 UTC 2014:194:1:1055872170</base:Checksum>
+                        <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State>
+                        </str:WorkProductIdentification><str:WorkProductProperties>
+                        <base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2013-11-30T04:33:12.023+00:00</base:Created>
+                        <base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@soruicds1</base:CreatedBy>
+                        <base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-07T23:55:48.533+00:00</base:LastUpdated>
+                        <base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@soruicds1</base:LastUpdatedBy>
+                        <base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">1</base:Kilobytes>
+                        <base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType>
+                        <base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base">
+                            <base:Identifier>IG-3ad7d351-c542-4c80-a47a-6dcb644d35ac</base:Identifier>
+                        </base:AssociatedGroups>
+                    </str:WorkProductProperties>
+                 </ulex:PackageMetadata>
+                 <ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aaaa">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aaaa">
+            <ucore:Descriptor>To continue receiving updates for earthquake information you must switch to the new data format.</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">Data Feed Deprecated</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">Data Feed Depre...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aaaa">
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aaaa">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2013-11-30T13:54:34.742Z</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aaaa"/>
+            <ucore:LocationRef ref="Location-w1aaaa"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-4440e1c8-5bd7-4cde-ae7b-7366ad9a10ca</ulex:DataItemID><ulex:DataItemReferenceID>Incident-4440e1c8-5bd7-4cde-ae7b-7366ad9a10ca</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-4440e1c8-5bd7-4cde-ae7b-7366ad9a10ca</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">194</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jan 07 23:55:48 UTC 2014:194:2:2816869648</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2013-11-30T04:33:14.435+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@soruicds1</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-07T23:55:48.685+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@soruicds1</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-c9f3a431-3a9e-4025-803d-96bbc351f4fd</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aaaa">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aaaa">
+            <ucore:Descriptor>November 26, 2013 08:11:25 GMT</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">M 5.2, Andreanof Islands, Aleutian Islands, Alaska</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">M 5.2, Andreano...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aaaa">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">51.51400 -174.41830</ns:pos>
+                        <ns:radius uom="SMI">0.0</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aaaa">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2013-11-30T13:54:36.006Z</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aaaa"/>
+            <ucore:LocationRef ref="Location-w1aaaa"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-c58e73c8-6053-4023-b3e1-e0b10783e5d5</ulex:DataItemID><ulex:DataItemReferenceID>Incident-c58e73c8-6053-4023-b3e1-e0b10783e5d5</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-c58e73c8-6053-4023-b3e1-e0b10783e5d5</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">194</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jan 07 23:55:48 UTC 2014:194:2:2816869648</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2013-11-30T04:33:16.506+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@soruicds1</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-07T23:55:48.852+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@soruicds1</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-1e714b8b-0dbc-485c-a501-b3a385614502</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aaaa">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aaaa">
+            <ucore:Descriptor>November 25, 2013 06:27:08 GMT</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">M 6.6, South Atlantic Ocean</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">M 6.6, South At...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aaaa">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">-54.00000 -54.90000</ns:pos>
+                        <ns:radius uom="SMI">0.0</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aaaa">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2013-11-30T13:54:37.25Z</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aaaa"/>
+            <ucore:LocationRef ref="Location-w1aaaa"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-c9f5ba54-9dba-4d6c-81bc-21af149dd722</ulex:DataItemID><ulex:DataItemReferenceID>Incident-c9f5ba54-9dba-4d6c-81bc-21af149dd722</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-c9f5ba54-9dba-4d6c-81bc-21af149dd722</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">9</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jan 07 23:55:49 UTC 2014:9:1:2770548698</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2013-12-02T16:06:54.633+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@soruicds1</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-07T23:55:49.013+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@soruicds1</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">1</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-896228d3-74a2-4f57-867a-4558e66778c6</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aaaa">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aaaa">
+            <ucore:Descriptor>To continue receiving updates for earthquake information you must switch to the new data format.</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">Data Feed Deprecated</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">Data Feed Depre...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aaaa">
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aaaa">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2013-12-02T16:42:28.124Z</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aaaa"/>
+            <ucore:LocationRef ref="Location-w1aaaa"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-af7a6691-e3a7-4ef0-886a-d384c50fd081</ulex:DataItemID><ulex:DataItemReferenceID>Incident-af7a6691-e3a7-4ef0-886a-d384c50fd081</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-af7a6691-e3a7-4ef0-886a-d384c50fd081</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jan 07 23:55:49 UTC 2014:2:2:3755917227</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2013-12-02T16:05:59.145+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@soruicds1</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-07T23:55:49.187+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@soruicds1</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-97bfad53-99b8-41c5-a877-e71622ee5c81</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aaaa">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aaaa">
+            <ucore:Descriptor>&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+					&lt;table style="width: 350px;"&gt;
+						&lt;tr&gt;
+							&lt;td&gt;
+								&lt;br&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+							&lt;td valign="top"&gt;
+								&lt;div&gt;&lt;b&gt;Location:&lt;/b&gt;  Las Vegas, NV&lt;/div&gt;&lt;br /&gt;
+								&lt;div&gt;
+									&lt;b&gt;Current Air Quality:&lt;/b&gt;
+									12/02/13 7:00 AM PST&lt;br /&gt;&lt;br /&gt;
+									&lt;div&gt;
+										Moderate  - 54 AQI - Particle Pollution (2.5 microns)&lt;br /&gt;
+											&lt;br /&gt;
+										Good  - 13 AQI - Ozone&lt;br /&gt;
+											&lt;br /&gt;
+										
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div&gt;&lt;b&gt;Agency:&lt;/b&gt; Clark County Department of Air Quality &lt;/div&gt;&lt;br /&gt;
+								&lt;div&gt;&lt;i&gt;Last Update: Mon, 02 Dec 2013 07:45:08 PST&lt;/i&gt;&lt;/div&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+					&lt;/table&gt;
+					&lt;/div&gt;</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">Las Vegas, NV - Current Air Quality</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">Las Vegas, NV -...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aaaa">
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aaaa">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2013-12-02T16:05:59.116Z</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aaaa"/>
+            <ucore:LocationRef ref="Location-w1aaaa"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-343d969d-91f8-4e3a-b415-f17e06554b30</ulex:DataItemID><ulex:DataItemReferenceID>Incident-343d969d-91f8-4e3a-b415-f17e06554b30</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-343d969d-91f8-4e3a-b415-f17e06554b30</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">9</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jan 07 23:55:49 UTC 2014:9:2:1009411680</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2013-12-02T16:06:55.189+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@soruicds1</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-07T23:55:49.369+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@soruicds1</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-4b62825c-cfbc-44ba-a36b-b78a733ae8e8</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aaaa">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aaaa">
+            <ucore:Descriptor>December 01, 2013 03:19:33 GMT</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">M 5.5, off the coast of Northern California</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">M 5.5, off the ...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aaaa">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">41.68270 -127.37480</ns:pos>
+                        <ns:radius uom="SMI">0.0</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aaaa">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2013-12-02T16:42:29.362Z</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aaaa"/>
+            <ucore:LocationRef ref="Location-w1aaaa"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-6a95e9c1-aa1d-4a52-897a-486cd403cd03</ulex:DataItemID><ulex:DataItemReferenceID>Incident-6a95e9c1-aa1d-4a52-897a-486cd403cd03</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-6a95e9c1-aa1d-4a52-897a-486cd403cd03</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">9</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jan 07 23:55:49 UTC 2014:9:2:1009411680</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2013-12-02T16:06:55.772+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@soruicds1</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-07T23:55:49.545+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@soruicds1</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-24266404-39e1-4aef-ab21-26a8b24a9874</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aaaa">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aaaa">
+            <ucore:Descriptor>November 26, 2013 08:11:25 GMT</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">M 5.2, Andreanof Islands, Aleutian Islands, Alaska</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">M 5.2, Andreano...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aaaa">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">51.51400 -174.41830</ns:pos>
+                        <ns:radius uom="SMI">0.0</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aaaa">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2013-12-02T16:42:30.565Z</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aaaa"/>
+            <ucore:LocationRef ref="Location-w1aaaa"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-d0f2b34c-56e4-4e46-9923-5bb18a17314c</ulex:DataItemID><ulex:DataItemReferenceID>Incident-d0f2b34c-56e4-4e46-9923-5bb18a17314c</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-d0f2b34c-56e4-4e46-9923-5bb18a17314c</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jan 07 23:55:49 UTC 2014:2:2:3755917227</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2013-12-02T16:16:56.138+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@soruicds1</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-07T23:55:49.717+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@soruicds1</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-9a377294-879f-40e2-9d76-71cf765b5497</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aaaa">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aaaa">
+            <ucore:Descriptor>&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+					&lt;table style="width: 350px;"&gt;
+						&lt;tr&gt;
+							&lt;td&gt;
+								&lt;br&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+							&lt;td valign="top"&gt;
+								&lt;div&gt;&lt;b&gt;Location:&lt;/b&gt;  Las Vegas, NV&lt;/div&gt;&lt;br /&gt;
+								&lt;div&gt;
+									&lt;b&gt;Current Air Quality:&lt;/b&gt;
+									12/02/13 7:00 AM PST&lt;br /&gt;&lt;br /&gt;
+									&lt;div&gt;
+										Moderate  - 54 AQI - Particle Pollution (2.5 microns)&lt;br /&gt;
+											&lt;br /&gt;
+										Good  - 13 AQI - Ozone&lt;br /&gt;
+											&lt;br /&gt;
+										
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div&gt;&lt;b&gt;Agency:&lt;/b&gt; Clark County Department of Air Quality &lt;/div&gt;&lt;br /&gt;
+								&lt;div&gt;&lt;i&gt;Last Update: Mon, 02 Dec 2013 08:15:06 PST&lt;/i&gt;&lt;/div&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+					&lt;/table&gt;
+					&lt;/div&gt;</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">Las Vegas, NV - Current Air Quality</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">Las Vegas, NV -...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aaaa">
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aaaa">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2013-12-02T16:16:56.092Z</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aaaa"/>
+            <ucore:LocationRef ref="Location-w1aaaa"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-2b635cbf-bf6c-46da-b6bd-0de0caa447d5</ulex:DataItemID><ulex:DataItemReferenceID>Incident-2b635cbf-bf6c-46da-b6bd-0de0caa447d5</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-2b635cbf-bf6c-46da-b6bd-0de0caa447d5</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jan 07 23:55:49 UTC 2014:2:2:3755917227</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2013-12-30T00:52:04.398+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@soruicds1</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-07T23:55:49.894+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@soruicds1</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-aa0ea3d8-467a-4475-bc0a-c926b30d5900</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aaaa">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aaaa">
+            <ucore:Descriptor>&lt;dl&gt;&lt;dt&gt;Time&lt;/dt&gt;&lt;dd&gt;2013-12-30 00:02:16 UTC&lt;/dd&gt;&lt;dd&gt;2013-12-29 16:02:16 -08:00 at epicenter&lt;/dd&gt;&lt;dt&gt;Location&lt;/dt&gt;&lt;dd&gt;33.858&amp;#176;N 117.012&amp;#176;W&lt;/dd&gt;&lt;dt&gt;Depth&lt;/dt&gt;&lt;dd&gt;26.20 km (16.28 mi)&lt;/dd&gt;&lt;/dl&gt;</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">M 1.2 - 8km SSW of Beaumont, California</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">M 1.2 - 8km SSW...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aaaa">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">33.85750 -117.01230</ns:pos>
+                        <ns:radius uom="SMI">0.0</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aaaa">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2013-12-30T00:52:04.369Z</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aaaa"/>
+            <ucore:LocationRef ref="Location-w1aaaa"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-46f843f3-8976-4242-963a-92424c618fdd</ulex:DataItemID><ulex:DataItemReferenceID>Incident-46f843f3-8976-4242-963a-92424c618fdd</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-46f843f3-8976-4242-963a-92424c618fdd</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Jan 07 23:55:50 UTC 2014:2:2:2682346687</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2013-11-30T13:45:19.194+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@soruicds1</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-07T23:55:50.109+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@soruicds1</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-08ce3383-75f3-495c-b94d-d919521ecad1</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aaaa">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aaaa">
+            <ucore:Descriptor>&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+					&lt;table style="width: 350px;"&gt;
+						&lt;tr&gt;
+							&lt;td&gt;
+								&lt;br&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+							&lt;td valign="top"&gt;
+								&lt;div&gt;&lt;b&gt;Location:&lt;/b&gt;  Las Vegas, NV&lt;/div&gt;&lt;br /&gt;
+								&lt;div&gt;
+									&lt;b&gt;Current Air Quality:&lt;/b&gt;
+									11/30/13 5:00 AM PST&lt;br /&gt;&lt;br /&gt;
+									&lt;div&gt;
+										Moderate  - 55 AQI - Particle Pollution (2.5 microns)&lt;br /&gt;
+											&lt;br /&gt;
+										Good  - 21 AQI - Ozone&lt;br /&gt;
+											&lt;br /&gt;
+										
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div&gt;&lt;b&gt;Agency:&lt;/b&gt; Clark County Department of Air Quality &lt;/div&gt;&lt;br /&gt;
+								&lt;div&gt;&lt;i&gt;Last Update: Sat, 30 Nov 2013 05:45:07 PST&lt;/i&gt;&lt;/div&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+					&lt;/table&gt;
+					&lt;/div&gt;</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">Las Vegas, NV - Current Air Quality</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">Las Vegas, NV -...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aaaa">
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aaaa">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2013-11-30T13:45:19.155Z</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aaaa"/>
+            <ucore:LocationRef ref="Location-w1aaaa"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-4686393e-5121-4e96-8c2a-08a64cff971c</ulex:DataItemID><ulex:DataItemReferenceID>Incident-4686393e-5121-4e96-8c2a-08a64cff971c</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-4686393e-5121-4e96-8c2a-08a64cff971c</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Sat Jan 11 12:41:15 PST 2014:2:2:3299217435</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-08T22:36:43.820+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@hdin-u</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-11T20:41:15.794+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@hdin-u</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-c23ef4cd-c1c8-48d1-b4b0-2e363b8aa83a</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aab1a">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aab1a">
+            <ucore:Descriptor>Lances uicds from the east gate</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">Freeway Traffic Incident lane #1 over 25 mph (32)</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">Freeway Traffic...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon">../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</ucore:SimpleProperty>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color">red</ucore:SimpleProperty>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar">15</ucore:SimpleProperty>
+            <ucore:What ucore:code="Event" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aab1a">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">34.07298, -119.78410</ns:pos>
+                        <ns:radius uom="SMI">4.5</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aab1a">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2014-01-08T14:36:43.798-08:00</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aab1a"/>
+            <ucore:LocationRef ref="Location-w1aab1a"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-6574257e-1667-4bd9-8a64-be416bc305d7</ulex:DataItemID><ulex:DataItemReferenceID>Incident-6574257e-1667-4bd9-8a64-be416bc305d7</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-6574257e-1667-4bd9-8a64-be416bc305d7</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Sat Jan 11 12:41:15 PST 2014:2:2:3299217435</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-08T22:39:02.136+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@hdin-u</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-11T20:41:15.952+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@hdin-u</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-645b0383-e612-47b5-a1ef-ea05e8e0e81a</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aab1a">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aab1a">
+            <ucore:Descriptor>Lances uicds from the east gate</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">Freeway Traffic Incident lane #2 over 25 mph (38)</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">Freeway Traffic...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon">../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</ucore:SimpleProperty>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color">red</ucore:SimpleProperty>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar">15</ucore:SimpleProperty>
+            <ucore:What ucore:code="Event" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aab1a">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">34.07298, -119.78410</ns:pos>
+                        <ns:radius uom="SMI">4.5</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aab1a">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2014-01-08T14:39:02.113-08:00</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aab1a"/>
+            <ucore:LocationRef ref="Location-w1aab1a"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-fc352b7e-5fe9-4411-a012-56cf71ffff42</ulex:DataItemID><ulex:DataItemReferenceID>Incident-fc352b7e-5fe9-4411-a012-56cf71ffff42</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-fc352b7e-5fe9-4411-a012-56cf71ffff42</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Sat Jan 11 12:41:16 PST 2014:2:2:3006841579</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-08T22:36:47.872+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@hdin-u</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-11T20:41:16.094+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@hdin-u</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-dac09e28-652d-453a-9110-4cb655644558</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aab1a">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aab1a">
+            <ucore:Descriptor>Lances uicds from the east gate</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">Freeway Traffic Incident lane #4 over 25 mph (38)</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">Freeway Traffic...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon">../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</ucore:SimpleProperty>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color">red</ucore:SimpleProperty>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar">15</ucore:SimpleProperty>
+            <ucore:What ucore:code="Event" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aab1a">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">34.07298, -119.78410</ns:pos>
+                        <ns:radius uom="SMI">4.5</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aab1a">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2014-01-08T14:36:47.85-08:00</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aab1a"/>
+            <ucore:LocationRef ref="Location-w1aab1a"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-d8623cc6-e47f-4593-addb-e9be29e456e2</ulex:DataItemID><ulex:DataItemReferenceID>Incident-d8623cc6-e47f-4593-addb-e9be29e456e2</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-d8623cc6-e47f-4593-addb-e9be29e456e2</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Sat Jan 11 12:41:16 PST 2014:2:2:3006841579</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-08T22:38:21.836+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@hdin-u</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-11T20:41:16.247+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@hdin-u</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-5138001e-30bb-40c2-95d1-e4fe54d04c23</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aab1a">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aab1a">
+            <ucore:Descriptor>Lances uicds from the east gate</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">Freeway Traffic Incident lane #1 over 25 mph (38)</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">Freeway Traffic...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon">../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</ucore:SimpleProperty>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color">red</ucore:SimpleProperty>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar">15</ucore:SimpleProperty>
+            <ucore:What ucore:code="Event" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aab1a">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">34.07298, -119.78410</ns:pos>
+                        <ns:radius uom="SMI">4.5</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aab1a">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2014-01-08T14:38:21.811-08:00</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aab1a"/>
+            <ucore:LocationRef ref="Location-w1aab1a"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-6b9125dd-da7f-49ea-a664-f0c319fa6513</ulex:DataItemID><ulex:DataItemReferenceID>Incident-6b9125dd-da7f-49ea-a664-f0c319fa6513</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-6b9125dd-da7f-49ea-a664-f0c319fa6513</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Sat Jan 11 12:41:16 PST 2014:2:2:3006841579</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-08T23:31:01.681+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@hdin-u</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-11T20:41:16.420+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@hdin-u</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-4a003093-5967-4064-b4c5-0974a292e629</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aab1a">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value>FIRST</ucore:Value>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aab1a">
+            <ucore:Descriptor>twe</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">terw</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">terw...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon"/>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color"/>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar"/>
+            <ucore:What ucore:code="Incident" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aab1a">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">34.42080, -119.69800</ns:pos>
+                        <ns:radius uom="SMI">1</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aab1a">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2014-01-08T15:31:01.638-08:00</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aab1a"/>
+            <ucore:LocationRef ref="Location-w1aab1a"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct><str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures"><ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0"><ulex:DataItemID>Incident-8c4d04d7-1d47-4e63-b619-136a13212afd</ulex:DataItemID><ulex:DataItemReferenceID>Incident-8c4d04d7-1d47-4e63-b619-136a13212afd</ulex:DataItemReferenceID><ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/><ulex:DataOwnerMetadata><ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>ucids.org</ns1:name></ns1:Organization></ns:DataOwnerIdentifier><ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0"><ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"><ns1:name>http://uicds.us</ns1:name></ns1:Organization></ns:DataOwnerContact><ulex:DataOwnerMetadataDomainAttribute><ulex:DomainName>UICDS EM Domain</ulex:DomainName></ulex:DataOwnerMetadataDomainAttribute></ulex:DataOwnerMetadata><ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/><str:WorkProductIdentification><base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-8c4d04d7-1d47-4e63-b619-136a13212afd</base:Identifier><base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version><base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type><base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Sat Jan 11 12:41:16 PST 2014:2:2:3006841579</base:Checksum><base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State></str:WorkProductIdentification><str:WorkProductProperties><base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-08T22:37:17.159+00:00</base:Created><base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">admin@hdin-u</base:CreatedBy><base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2014-01-11T20:41:16.589+00:00</base:LastUpdated><base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">null@hdin-u</base:LastUpdatedBy><base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes><base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType><base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base"><base:Identifier>IG-cda85588-df92-484a-b94c-d0732af9c1f1</base:Identifier></base:AssociatedGroups></str:WorkProductProperties></ulex:PackageMetadata><ucore:Digest xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns="http://ucore.gov/ucore/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:ns3="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ucore:Organization id="Organization-w1aab1a">
+            <ucore:What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+            <ucore:Name>
+                <ucore:Value/>
+            </ucore:Name>
+        </ucore:Organization>
+        <ucore:Event id="Event-w1aab1a">
+            <ucore:Descriptor>Lances uicds from the east gate</ucore:Descriptor>
+            <ucore:Identifier ucore:code="ActivityName" ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:label="ID">Freeway Traffic Incident lane #2 over 25 mph (39)</ucore:Identifier>
+            <ucore:Identifier ucore:code="label" ucore:codespace="http://uicds.us/identifier" ucore:label="Label">Freeway Traffic...</ucore:Identifier>
+            <ucore:SimpleProperty ucore:code="icon" ucore:codespace="http://uicds.us/style" ucore:label="Icon">../Icons/HWSGSymbology/Incidents/Blank_Incident_A.png</ucore:SimpleProperty>
+            <ucore:SimpleProperty ucore:code="color" ucore:codespace="http://uicds.us/style" ucore:label="Color">red</ucore:SimpleProperty>
+            <ucore:SimpleProperty ucore:code="scalar" ucore:codespace="http://uicds.us/style" ucore:label="Scalar">15</ucore:SimpleProperty>
+            <ucore:What ucore:code="Event" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+        </ucore:Event>
+        <ucore:Location id="Location-w1aab1a">
+            <ucore:GeoLocation>
+                <ucore:CircleByCenterPoint>
+                    <ns:CircleByCenterPoint numArc="1">
+                        <ns:pos srsName="EPSG:4326">34.07298, -119.78410</ns:pos>
+                        <ns:radius uom="SMI">4.5</ns:radius>
+                    </ns:CircleByCenterPoint>
+                </ucore:CircleByCenterPoint>
+            </ucore:GeoLocation>
+            <ucore:PhysicalAddress>
+                <ddms:postalAddress>
+                    <ddms:street/>
+                    <ddms:city/>
+                    <ddms:state/>
+                    <ddms:postalCode/>
+                    <ddms:countryCode ddms:qualifier="ISO 3166-1" ddms:value=""/>
+                </ddms:postalAddress>
+            </ucore:PhysicalAddress>
+        </ucore:Location>
+        <ucore:OccursAt id="OccursAt-w1aab1a">
+            <ucore:Time>
+                <ucore:TimeInstant>
+                    <ucore:Value>2014-01-08T14:37:17.123-08:00</ucore:Value>
+                </ucore:TimeInstant>
+            </ucore:Time>
+            <ucore:EventRef ref="Event-w1aab1a"/>
+            <ucore:LocationRef ref="Location-w1aab1a"/>
+        </ucore:OccursAt>
+    </ucore:Digest></str:WorkProduct></wor:WorkProductList></inc:GetIncidentListResponse></SOAP-ENV:Body></SOAP-ENV:Envelope> 

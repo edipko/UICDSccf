@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<ims:CloseIncidentRequest xmlns:ims="http://uicds.org/IncidentManagementService">
+<ims:IncidentID xmlns:ims="http://uicds.org/IncidentManagementService">{IGID}</ims:IncidentID>
+</ims:CloseIncidentRequest>
+</soap:Body>
+</soap:Envelope>
