@@ -23,7 +23,6 @@ import org.apache.commons.io.IOUtils;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
-import org.jsoup.Jsoup;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -174,7 +173,7 @@ public class UicdsSoapTools {
 		xml = xml.replace("{LONMIN}", Double.toString(lonMinute));
 		xml = xml.replace("{LONSEC}", Double.toString(lonSecond));
 
-		System.out.println("Sending document: " + xml);
+		//System.out.println("Sending document: " + xml);
 		
 		/*
 		 * Send the document

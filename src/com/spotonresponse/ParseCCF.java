@@ -6,7 +6,6 @@ import java.net.URI;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -140,6 +139,7 @@ public class ParseCCF {
 			if (tr.hasAttr("bgcolor")) {
 				int place = 0;
 				incidentData = new HashMap<String, String>();
+				boolean goodaddress=false;
 				for (Element td : tr.children()) {
 					Node font = td.childNode(0);
 					String tdContents = font.childNode(0).toString();
@@ -162,6 +162,7 @@ public class ParseCCF {
 						case 3:
 							incidentData.put("address", font.childNode(0)
 									.toString());
+							goodaddress=true;
 							break;
 						case 4:
 							incidentData.put("code", font.childNode(0)
@@ -171,7 +172,10 @@ public class ParseCCF {
 					}
 					place++;
 				}
-				incidentList.add(incidentData);
+				
+				if (goodaddress) {
+				   incidentList.add(incidentData);
+				}
 			}
 		}
 	    
@@ -202,7 +206,8 @@ public class ParseCCF {
 				/*
 				 * If we have an address - we can proceed
 				 */
-				if (!iMap.get("address").isEmpty()) {
+				//if (!iMap.get("address").isEmpty()) {
+				if (iMap.get("address").length() > 4) {
 					
 					/*
 					 * Store the data - add it to the array so we can remove
@@ -268,21 +273,6 @@ public class ParseCCF {
 					    xPathExpression = xpath.compile("//GeocodeResponse/result/geometry/location/lng");
 					    ccfd.setLon(Double.valueOf(xPathExpression.evaluate(gedoc,XPathConstants.STRING).toString()));
 					    
-						/*
-						Elements latitudeElement = gedoc
-								.getElementsByTag("lat");
-						ccfd.setLat(Double.valueOf(latitudeElement.text()));
-						Elements longitudeElement = gedoc
-								.getElementsByTag("lng");
-						ccfd.setLat(Double.valueOf(longitudeElement.text()));
-						String[] coords = null;
-						for (Element me : mapElements) {
-							coords = me.text().split(",");
-						}
-						
-						ccfd.setLat(Double.valueOf(coords[1]));		
-						ccfd.setLon(Double.valueOf(coords[0]));
-						*/
 						end = System.currentTimeMillis();
 						totalTime = end - start;
 						System.out.println("Total Address lookup and parsing time took: " + totalTime + "ms");
@@ -343,7 +333,7 @@ public class ParseCCF {
 						 */
 						ccfd.setUUID(dbu.getEntry(ccfd));
 						ccfdata.add(ccfd);
-						System.out.println("Entry exists");
+						//System.out.println("Entry exists");
 					}
 					
 				}

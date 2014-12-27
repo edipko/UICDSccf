@@ -2,5 +2,10 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/edipko/Documents/Development/SpotOn/JAVA_LIBS/jsoup-1.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/edipko/Documents/Development/SpotOn/JAVA_LIBS/joda-time-2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/edipko/Documents/Development/SpotOn/JAVA_LIBS/commons-codec-1.6 2.jar"/>
+	<classpathentry kind="lib" path="/Users/edipko/Documents/Development/SpotOn/JAVA_LIBS/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/edipko/Documents/Development/SpotOn/JAVA_LIBS/mysql-connector-java-5.1.17-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

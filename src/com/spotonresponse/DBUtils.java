@@ -244,7 +244,7 @@ public class DBUtils {
 		for (CCFdata ccfd : ccfdata) {
 			try {
 				al.add(ccfd.getUUID());
-				System.out.println("Added UUID: " + ccfd.getUUID());
+				System.out.println("Checking for expiration: " + ccfd.getUUID());
 			} catch (Exception ex) {
                  System.err.println("Error:" + ex);
                  ex.printStackTrace();
