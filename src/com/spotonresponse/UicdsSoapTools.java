@@ -174,6 +174,8 @@ public class UicdsSoapTools {
 		xml = xml.replace("{LONMIN}", Double.toString(lonMinute));
 		xml = xml.replace("{LONSEC}", Double.toString(lonSecond));
 
+		System.out.println("Sending document: " + xml);
+		
 		/*
 		 * Send the document
 		 * 
