@@ -1,5 +1,6 @@
 package com.spotonresponse;
 
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -269,14 +270,8 @@ public class UicdsSoapTools {
 		return textVal;
 	}
 
-	/**
-	 * Calls getTextValue and returns a int value
-	 */
-	private int getIntValue(Element ele, String tagName) {
-		// in production application you would catch the exception
-		return Integer.parseInt(getTextValue(ele, tagName));
-	}
 
+	
 	// copy method from From E.R. Harold's book "Java I/O"
 	public static void copy(InputStream in, OutputStream out)
 			throws IOException {
@@ -374,7 +369,8 @@ public class UicdsSoapTools {
 		/*
 		 * Add Code here to make sure we were successful
 		 */
-		
+		if (response.length() > 5) {
+		}
 		
 		/*
 		 * Archive the incident also
@@ -393,6 +389,8 @@ public class UicdsSoapTools {
 		/*
 		 * Add Code here to make sure we were successful
 		 */
+		if (response.length() > 5) {
+		}
 	}
 	
 	public String getWpID() {
