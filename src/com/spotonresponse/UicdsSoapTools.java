@@ -316,14 +316,21 @@ public class UicdsSoapTools {
 	
 	
 	public boolean closeIncidents(String IGid) {
+		String output = null;
 		String xml = convertStreamToString(new readXML().getCloseXML());	
 		closeXML = xml.replace("{IGID}", IGid);	
-		sendRequest(closeXML);
-
+		output = sendRequest(closeXML);
+		System.out.println(output);
+		if (output.contains("error")) {
+			System.out.println(output);
+		}
 		
 		String xml2 = convertStreamToString(new readXML().getArchiveXML());	
 		archiveXML = xml2.replace("{IGID}", IGid);	
-		sendRequest(archiveXML);
+		output = sendRequest(archiveXML);
+		if (output.contains("error")) {
+			System.out.println(output);
+		}
 		return true;
 		
 	}
